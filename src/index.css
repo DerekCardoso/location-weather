@@ -8,6 +8,14 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+.wrapper {
+  background: linear-gradient(to right, #808080, #474A51);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .app {
   background-image: url('./components/assets/cold-bg.jpg');
   background-size: cover;
@@ -100,4 +108,22 @@ main {
   font-size: 48px;
   font-weight: 700;
   text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+}
+
+button {
+  border: 0;
+  padding: 8px 20px;
+  margin: 0 2px;
+  border-radius: 2px;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: #b33d89;
+  color: #fff;
+  font-weight: 100;
+}
+
+button:active {
+  outline: none;
 }
